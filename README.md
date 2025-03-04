@@ -1,17 +1,18 @@
-# minimal-reproduction-template
+# 34611
 
-First, read the [Renovate minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
+Minimal reproduction for [this discussion][link].
 
-Then replace the current `h1` with the Renovate Issue/Discussion number.
 
 ## Current behavior
 
-Explain the current behavior here.
+Dependencies inside a YAML block indicated with `|-` are not captured.
 
 ## Expected behavior
 
-Explain the expected behavior here.
+Dependencies inside a `|-` block are captured and upgraded as usual.
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+[Link to discussion here][link].
+
+[link]: https://github.com/renovatebot/renovate/discussions/34611
